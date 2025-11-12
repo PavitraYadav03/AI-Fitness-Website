@@ -77,3 +77,39 @@
     cursor: pointer;
     margin: 20px auto 0 auto;
 }
+/*
+// src/components/JoinCult/JoinCult.css (file ke bottom mein yeh NEW block add karein)
+*/
+
+@media (max-width: 768px) {
+    .join-cult-section {
+        padding: 60px 20px; /* Padding kam karein */
+    }
+
+    .join-cult-section h1 {
+        font-size: 45px; /* Title chota karein */
+        margin-bottom: 30px;
+    }
+
+    .card-container {
+        flex-direction: column; /* Cards ko vertical stack karein */
+        width: 100%; /* Full width use karein */
+        gap: 20px;
+    }
+
+    .join-card {
+        flex-basis: 100%;
+        min-height: 300px;
+        padding: 25px;
+    }
+    
+    .join-card h3 {
+        font-size: 30px;
+    }
+    
+    /* Image ko chota karein taaki overflow na ho */
+    .career-card img {
+        width: 70%;
+        align-self: center;
+    }
+}

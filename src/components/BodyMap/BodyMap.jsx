@@ -221,6 +221,25 @@ const App = () => {
             .body-map-content { flex-direction: column; }
             .body-figure, .exercises-panel { flex: 1 1 100%; }
         }
+        @media (max-width: 768px) {
+            .body-map-header h2 {
+                font-size: 30px; /* Title size chota */
+            }
+            .body-map-content {
+              gap: 20px; /* Components ke beech ka gap kam karein */
+            } 
+            .body-figure {
+                padding: 20px 10px; /* Body Figure ka padding kam karein */
+            } 
+            .human-body-svg { 
+                max-width: 300px; /* SVG ki max width choti karein */
+            }
+            .exercises-panel {
+                padding: 20px; /* Panel padding kam karein */
+                min-height: 400px;
+            }
+         }
+           
       `}</style>
       <section className="body-map-container">
         <div className="body-map-header">

@@ -479,4 +479,7 @@
     .camera-status {
         align-self: flex-end;
     }
+    .coach-container {
+      padding: 15px; /* Inner container ka padding kam karein */
+    }
 }

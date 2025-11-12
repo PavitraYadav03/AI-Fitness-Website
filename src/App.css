@@ -36,3 +36,9 @@
     max-width: 900px;
     margin: 10px auto;
 }
+/* Kisi bhi general CSS file mein add karein */
+* {
+    box-sizing: border-box; 
+    /* Yeh ensure karta hai ki padding aur border kisi element ki total width ko na badhayein, 
+    jisse collision kam hoti hai. */
+}
